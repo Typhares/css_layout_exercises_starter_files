@@ -1,0 +1,73 @@
+/*difference between inline, block-level, and inline-block elements. inline, block, and inline-block, you'll be able to solve most layout problems involving the display property.*/
+
+main {
+    margin-top: 20px;
+    font-size: 0;
+}
+
+.big-boxparent {
+    margin-top: 20px;
+    width: 880px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/*why can't I combine rule sets
+
+*/
+
+.half {
+    height: 200px;
+    width: 50%;
+}
+
+.green {
+
+    background-color: green;
+
+}
+
+.blue {
+
+    background-color: #4156cb;
+
+}
+
+.third {
+    height: 300px;
+    width: 33.33%;
+}
+
+/*
+.box third {
+height: 300px;
+width: 33.33%;
+}
+*/
+
+.gray {
+    background-color: gray;
+    /*    width: 33.33%;
+    height: 300px;*/
+    /*    display: inline-block;*/
+}
+
+.black {
+    background-color: black;
+    /*    width: 33.33%;
+    height: 300px;
+    display: inline-block;*/
+}
+
+.orange {
+    background-color: orange;
+}
+
+.center {
+    text-align: center;
+}
