@@ -1,12 +1,41 @@
+/*use case for floats
+getting text to wrap around an image (or some other container
+takes img out of the normal flow
+p is in the normal flow, wraps to the right of the images
+When you have more than one floated element
+those elements will continue to horizontally stack next to one another as long as there is space in the parent container.
+*/
+
 body {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 main {
-  padding-left: 90px;
-  padding-right: 90px;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 300px;
+}
+
+/*multi selector*/
+
+.left,
+.right {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+
 }
