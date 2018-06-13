@@ -1,0 +1,48 @@
+/*use case for floats
+getting text to wrap around an image (or some other container
+resolve issue with floats left, left margin
+June 12 11:30am
+*/
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/*forgot margin-auto */
+
+main {
+    padding-left: 90px;
+    padding-right: 90px;
+    max-width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*
+.img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+*/
+
+.floats {
+    width: 250px;
+}
+
+.left,
+.right {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.left {
+    float: left;
+    margin-right: 50px;
+}
+
+.right {
+    float: right;
+    margin-left: 50px;
+}
